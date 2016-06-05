@@ -6,7 +6,9 @@ toremove=( wolfram-engine scratch sonic-pi idle3 smartsim penguinspuzzle java-co
 function apt_remove() { 
     for p in "${toremove[@]}" 
     do 
-    sudo apt-get remove --auto-remove --purge $p 
+    sudo apt-get remove --yes --auto-remove --purge $p 
     done 
 } 
+
+apt_remove
 

@@ -1,0 +1,6 @@
+requests
+instantmusic
+httpie
+virtualenv
+mechanize
+fabric
